@@ -14,11 +14,10 @@ class Migration:
         self.description = description
 
     def apply(self):
-        pass  # Implement the actual schema changes here
+        pass
 
 
 # Click command for migrations
-# Modify the Click command for migrations
 @click.command()
 @click.option("--migrations", is_flag=True, type=str)
 @click.option("--add", type=str, is_flag=True, required=False)
